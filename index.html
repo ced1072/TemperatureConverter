@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+
+  <!-- google fonts  -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <!-- meyer's reset -->
+  <link rel="stylesheet" href="reset.css">
+
+  <!-- style sheet -->
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+  <div class = "mainContianer1"> 
+    <h1 class="title"> Temperature Converter</h1>
+<!--   fahrenheit to celsius   -->
+    <div class= "FtoC">
+      <!-- title -->
+      <h3 class="convert"> Convert Farhenhiet to Celsius</h3>
+      <hr>
+      <form class = "cForm">
+        <!-- label -->
+        <label for = "tempEnterF">
+          Enter Farhenheit temperature:
+        </label>
+        
+        <!-- enter number field -->
+        <input type ="number" name="tempInF" id="tempInF" >
+       
+        <!-- button -->
+        <input type = submit value = "convert to Celsius" onclick="FtoC()" >
+
+       </form>
+    </div>
+  </div>
+
+  <div class= "mainContainer2">
+    <!-- celsius to fahrenheit-->
+    <div class = "CtoF">
+      <!-- title -->
+      <h3 class="convert"> Convert Celsius to Fahrenheit</h3>
+      <hr>
+      <!-- label -->
+      <form class="fForm">
+        <label for = "tempEnterC">
+          Enter Celsius temperature:
+        </label>
+
+        <!-- enter number field -->
+        <input type ="number" name="tempInC" id="tempInC">
+
+        <!-- button -->
+        <input type = submit value = "convert to Fahrenheit"
+        onclick="CtoF()">
+       
+       </form>
+       <!-- answer area -->
+       <h3 id="answerInF"></h3>
+    </div>
+  </div>
+
+  <div class = "footer">
+<h3>© 2020 Claire Frank.</h3>
+  </div>
+
+  <!-- javascript -->
+  <script src="myscript.js"></script>
+
+</body>
+
+</html>
+
