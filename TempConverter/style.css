@@ -1,0 +1,71 @@
+body
+{
+  background:rgb(2,62,138);
+  background: linear-gradient(0deg, rgba(2,62,138,1) 24%, rgba(173,232,244,1) 100%);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+  
+}
+
+.title
+{
+color: white;
+font-size: 4em;
+}
+
+.mainContianer1, .mainContainer2
+{
+
+  padding: 20px;
+  margin: 75px 0;
+}
+
+.cForm
+{
+padding:20px;
+margin:20px;
+}
+
+.FtoC
+{
+ 
+  border: solid 2px wheat;
+  margin: 50px 0;
+  color: #03045e;
+  
+  
+}
+
+
+.CtoF
+{ 
+ border: solid 2px wheat;
+ margin: 50px 0;
+ color: #caf0f8
+  
+}
+
+.convert
+{
+  padding:20px;
+}
+
+.fForm{
+padding:20px;
+margin:20px;
+}
+
+.footer{
+background-color: #1d3557;
+height: 10%;
+color: white;
+text-align: center;
+padding: 30px;
+
+}
+
+
+
+
